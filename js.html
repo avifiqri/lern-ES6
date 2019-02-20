@@ -1,0 +1,67 @@
+<!Doctype html>
+<html>
+        <title>javascript</title>
+        <head>
+    <script>
+    function myFungsi(){
+            document.getElementById('gendis').innerHTML ="lokok";
+    };
+    </script>
+        <script>
+            function Multiply(){
+
+                var z= 3;
+                var e = 4;
+                var o = z * e;
+                document.getElementById('multiply').innerHTML = o;
+                document.getElementById('hide').style.display ='none';
+          };
+          </script>
+    </head>
+        <body>
+                <p id="multiply"></p>
+            <button type="button" onclick="Multiply()">please clik</button>
+            <p id="multiply"></p>
+            <button type="button" onclick="Multiply()">hide </button>
+             
+            <button type="button"
+            onclick="document.getElementById('marijan').innerHTML = Date()">
+            clik here
+        </button>
+            <p id= "marijan"></p>
+              
+            <button type="button"
+                onclick="document.getElementById('hide').style.display = 'none'"></button>
+                   <p id="hide"> tulisan ini akan menghilang jika di klik</p>
+                
+                   <p id="gendis">loh kok kamu lagi</p>
+
+        <button type="button" onclick="myFungsi()">coba</button>
+        
+        <script>
+                var car = "avanza";
+                var name = "Yusuf";
+                var city ="bekasi";
+            document.getElementById("variabel").innerHTML = name + car + city;                    
+            //window.alert('hello word')
+        </script>
+          <p id="variabel"></p>            
+    
+        <script>
+                var a = 5;
+                var b = 4;
+                var c = a + b;
+                document.getElementById('aritmatic').innerHTML = c;
+
+        </script>
+        <p id="aritmatic"></p>
+            <script>
+                document.getElementById('demo').innerHTML = "hello word";
+            </script>
+            <p id="demo"></p>
+
+        </body>
+                   
+
+
+    </html> 
